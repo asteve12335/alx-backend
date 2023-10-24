@@ -4,7 +4,7 @@ arguments page with default value 1 and page_size with default value 10."""
 
 import csv
 import math
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
